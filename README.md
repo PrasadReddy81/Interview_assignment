@@ -19,6 +19,7 @@ To run this program, you need the following:
 
 
 `g++ -std=c++11 -o trial1 trial1.cpp -lpthread`
+
 This command:
 
 To compile a C++ program with the options used, the following command is issued: g++ -std=c++11 -o trial1 trial1.cpp -lpthread. Let's analyze it to understand the need of each part:
@@ -71,38 +72,42 @@ Once compiled, run the program as follows:
 
 The program displays the following information in the terminal and logs it in log.txt:
 
-User commands (e.g., "Forward", "BRAKE").
-Sensor data (accelerometer, gyroscope, obstacle detection).
-Special messages, such as "OBSTACLE DETECTED" or "STOPPED", when triggered by the system.
+* User commands (e.g., "Forward", "BRAKE").
+* Sensor data (accelerometer, gyroscope, obstacle detection).
+* Special messages, such as "OBSTACLE DETECTED" or "STOPPED", when triggered by the system.
 File Structure
-trial1.cpp: The main C++ program that runs the simulation.
-accelerometer.csv, gyro.csv, obstacle.csv: The CSV files containing simulated sensor data (you need to provide these files).
-log.txt: A log file where all feedback and events are recorded.
+* trial1.cpp: The main C++ program that runs the simulation.
+* accelerometer.csv, gyro.csv, obstacle.csv: The CSV files containing simulated sensor data (you need to provide these files).
+* log.txt: A log file where all feedback and events are recorded.
+  
 Example CSV Format
+
 Ensure that your CSV files follow this format:
 
 #### accelerometer.csv:
 
     Timestamp,Accel_X,Accel_Y,Accel_Z
     Accelerator Timestamp: 1.71857E+12, Accelerator: 0.3907766940425339, -0.172633975, 0.4692011844719466
-...
+    ...
 
 #### gyro.csv:
 
     Timestamp,Gyro_X,Gyro_Y,Gyro_Z
     Gyro Timestamp: 1.71857E+12, Gyro: 163.14170277922682, -85.56966001, -78.27850842
-    
-...
+    ...
+
 
 #### obstacle.csv:
 
     Obstacle_Value
     0 OBSTACLE NOT DETECTED
     1 OBSTACLE DETECTED
+    ...
 
-...
 Obstacle_Value can be 0 (no obstacle) or 1 (obstacle detected).
-Logging
+
+#### Logging
+
 All events, including user inputs and sensor data, are logged into a log.txt file located in the same directory as the program. This file will be created if it doesn't exist or appended to if it does.
 
 ### License
