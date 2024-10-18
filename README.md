@@ -82,7 +82,7 @@ File Structure
   
 Example CSV Format
 
-Ensure that your CSV files follow this format:
+Ensure that your `CSV` files follow this format:
 
 #### accelerometer.csv:
 
@@ -111,7 +111,7 @@ Obstacle_Value can be 0 (no obstacle) or 1 (obstacle detected).
 All events, including user inputs and sensor data, are logged into a log.txt file located in the same directory as the program. This file will be created if it doesn't exist or appended to if it does.
 
 ### License
-This project is open-source and available under the MIT License.
+This project is not open-source, It will comes under PeepulAgri.com Organization and Licence.
 
 
 
