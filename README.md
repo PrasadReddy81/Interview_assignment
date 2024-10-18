@@ -58,6 +58,7 @@ Once compiled, run the program as follows:
     ./trial1
   
 #### Input
+
 The following keys are used for user input (steering control):
 
   W: Move Forward
@@ -67,6 +68,7 @@ The following keys are used for user input (steering control):
   M: BRAKE (Stop the system)
   
 #### Output
+
 The program displays the following information in the terminal and logs it in log.txt:
 
 User commands (e.g., "Forward", "BRAKE").
@@ -89,6 +91,7 @@ Ensure that your CSV files follow this format:
 
   Timestamp,Gyro_X,Gyro_Y,Gyro_Z
   Gyro Timestamp: 1.71857E+12, Gyro: 163.14170277922682, -85.56966001, -78.27850842
+  
 ...
 
 #### obstacle.csv:
