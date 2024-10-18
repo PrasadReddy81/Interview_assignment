@@ -65,6 +65,7 @@ The following keys are used for user input (steering control):
   A: Turn Left
   D: Turn Right
   M: BRAKE (Stop the system)
+  
 #### Output
 The program displays the following information in the terminal and logs it in log.txt:
 
@@ -80,21 +81,20 @@ Ensure that your CSV files follow this format:
 
 #### accelerometer.csv:
 
-Timestamp,Accel_X,Accel_Y,Accel_Z
-2023-10-16 12:00:00,0.12,0.01,-0.03
-2023-10-16 12:00:01,0.15,0.02,-0.02
+    Timestamp,Accel_X,Accel_Y,Accel_Z
+    Accelerator Timestamp: 1.71857E+12, Accelerator: 0.3907766940425339, -0.172633975, 0.4692011844719466
 ...
 #### gyro.csv:
 
-Timestamp,Gyro_X,Gyro_Y,Gyro_Z
-2023-10-16 12:00:00,0.15,0.02,0.07
-2023-10-16 12:00:01,0.16,0.03,0.08
+  Timestamp,Gyro_X,Gyro_Y,Gyro_Z
+  Gyro Timestamp: 1.71857E+12, Gyro: 163.14170277922682, -85.56966001, -78.27850842
 ...
 #### obstacle.csv:
 
-Obstacle_Value
-0
-1
+  Obstacle_Value
+  0 OBSTACLE NOT DETECTED
+  1 OBSTACLE DETECTED
+
 ...
 Obstacle_Value can be 0 (no obstacle) or 1 (obstacle detected).
 Logging
