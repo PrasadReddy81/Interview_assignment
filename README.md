@@ -59,13 +59,13 @@ Once compiled, run the program as follows:
   
 #### Input
 
-The following keys are used for user input (steering control):
-
-  W: Move Forward
-  S: Move Reverse
-  A: Turn Left
-  D: Turn Right
-  M: BRAKE (Stop the system)
+  The following keys are used for user input (steering control):
+  
+    W: Move Forward
+    S: Move Reverse
+    A: Turn Left
+    D: Turn Right
+    M: BRAKE (Stop the system)
   
 #### Output
 
@@ -89,16 +89,16 @@ Ensure that your CSV files follow this format:
 
 #### gyro.csv:
 
-  Timestamp,Gyro_X,Gyro_Y,Gyro_Z
-  Gyro Timestamp: 1.71857E+12, Gyro: 163.14170277922682, -85.56966001, -78.27850842
-  
+    Timestamp,Gyro_X,Gyro_Y,Gyro_Z
+    Gyro Timestamp: 1.71857E+12, Gyro: 163.14170277922682, -85.56966001, -78.27850842
+    
 ...
 
 #### obstacle.csv:
 
-  Obstacle_Value
-  0 OBSTACLE NOT DETECTED
-  1 OBSTACLE DETECTED
+    Obstacle_Value
+    0 OBSTACLE NOT DETECTED
+    1 OBSTACLE DETECTED
 
 ...
 Obstacle_Value can be 0 (no obstacle) or 1 (obstacle detected).
