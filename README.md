@@ -41,10 +41,12 @@ You can verify the creation of the executable by listing files in the directory:
 You should see trial1 in the list.
 
 Running the executable:
+
 To run the generated executable, use:
 
 
-  ./trial1
+    ./trial1
+    
 This will execute your program.
 
 Compiles trial1.cpp using the C++11 standard.
@@ -53,7 +55,8 @@ Running the Program
 Once compiled, run the program as follows:
 
 
-  ./trial1
+    ./trial1
+  
 #### Input
 The following keys are used for user input (steering control):
 
