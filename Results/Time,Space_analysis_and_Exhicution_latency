@@ -1,4 +1,4 @@
-## Time and Space Complexity Analysis
+## Time and Space Complexity Analysis.
 1. Reading Data from Files:
   * Each iteration processes a line from each file. This results in a time complexity of O(n), where n is the number of rows (samples). If there are 1,000,000 samples, the complexity will scale linearly.
   * Space complexity for file reading is O(1) as no extra space is required beyond storing a single line at a time.
