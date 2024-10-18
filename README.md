@@ -10,7 +10,7 @@ This is a C++ program that simulates real-time data processing from multiple sen
 - Automatic system stop and restart based on obstacle detection or user input.
 
 ## Prerequisites
-To run this program, you need the following:
+To run this program, you need the following: 
 - A C++ compiler with C++11 (or higher) support, such as `g++`.
 - POSIX-compliant operating system (Linux, macOS) for the `getch()` function.
   - **Note**: This program uses `termios` for non-blocking input, which is not supported on Windows out of the box.
