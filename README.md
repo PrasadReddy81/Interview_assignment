@@ -84,11 +84,13 @@ Ensure that your CSV files follow this format:
     Timestamp,Accel_X,Accel_Y,Accel_Z
     Accelerator Timestamp: 1.71857E+12, Accelerator: 0.3907766940425339, -0.172633975, 0.4692011844719466
 ...
+
 #### gyro.csv:
 
   Timestamp,Gyro_X,Gyro_Y,Gyro_Z
   Gyro Timestamp: 1.71857E+12, Gyro: 163.14170277922682, -85.56966001, -78.27850842
 ...
+
 #### obstacle.csv:
 
   Obstacle_Value
