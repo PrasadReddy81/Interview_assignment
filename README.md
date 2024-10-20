@@ -1,3 +1,28 @@
+
+
+
+
+
+
+
+
+# Assignment
+From the schematic given above, you are given the data of Accelerometer, Gyro and Obstacle Sensors for 1000000 samples. 
+Implement an optimized system to read & process all 3 sensors data in parallel along with Manual Stop button & steering inputs from keyboard, factoring in the below conditions,
+1.	Obstacle sensor data  = 1, indicates an obstacle. Obstacle sensor data  = 0, indicates no obstacle. 
+2.	Manual Stop is fed through keyboard input “M”. When “M” is pressed, send signal to apply brake. Indicate  brake applied by printing “BRAKE” on the terminal.
+3.	When obstacle is detected, indicate obstacle detection by printing “OBSTACLE DETECTED” on the terminal, along with respective accelerometer, gyro and timestamp info.
+4.	When both obstacle detected and Manual Stop is pressed, indicate by printing “STOPPED” on terminal and reset all data processing and start from first by reading first data.
+5.	Steering is fed via keys “W” (forward), “S” (Reverse), “A”(Left), “D”(Right). Listen to steering input and print the respective key’s action on the terminal. Example, print “Forward” when “W” is pressed. 
+Provide the following,
+1.	Complete C++ Source Code
+2.	Logs of running the full program
+3.	Time and Space Complexity Analysis for each part of the source code
+4.	Execution Latency
+
+# Solution
+
+
 # Real-Time Sensor Data Processing and Steering Control
 
 This is a C++ program that simulates real-time data processing from multiple sensors (accelerometer, gyroscope, and obstacle detection) and allows steering input from the user. It processes and logs both sensor data and user commands in real-time using multithreading.
