@@ -23,7 +23,7 @@ Provide the following,
 # Solution
 
 
-# Real-Time Sensor Data Processing and Steering Control
+## Real-Time Sensor Data Processing and Steering Control
 
 This is a C++ program that simulates real-time data processing from multiple sensors (accelerometer, gyroscope, and obstacle detection) and allows steering input from the user. It processes and logs both sensor data and user commands in real-time using multithreading.
 
